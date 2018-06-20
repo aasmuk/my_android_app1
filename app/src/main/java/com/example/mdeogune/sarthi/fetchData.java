@@ -46,7 +46,7 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
 
     @Override
     protected void onPostExecute(Void aVoid) {
-        DriverHistoryActivity.tv.setText(this.data);
+        DriverHistoryFragment.tv.setText(this.data);
         super.onPostExecute(aVoid);
     }
 }
